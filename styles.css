@@ -90,3 +90,17 @@ strong {
 .p1 {
   font-style: italic;
 }
+
+@media screen and (max-width: 768px) {
+
+  .btt {
+    border: 2px solid #282843;
+    background-color: white;
+    color: #282843;
+    border-radius: 20px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
